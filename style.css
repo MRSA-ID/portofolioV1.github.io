@@ -1,0 +1,321 @@
+
+
+
+/* NAVBAR */
+.navbar{
+	position: relative;
+	z-index: 1; 
+}
+
+.navbar-brand{
+	font-size: 24px;
+	font-family: rubik;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+	background-image: url(img/9331.jpg);
+	background-size: cover;
+	height: 540px;
+	text-align: center;
+	position: relative;
+	background-attachment: fixed;
+
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.jumbotron .container{
+	position: relative;
+	z-index: 1;
+}
+
+.jumbotron::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 80%;
+	background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+	position:absolute;
+	bottom: 0;
+}
+
+.jumbotron .display-4{
+	color: white;
+	margin-top: 140px;
+	font-weight: 100;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.jumbotron p{
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: -30px;
+}
+
+/*CONTAINER UTAMA*/
+
+
+
+/* ABOUT */
+
+.about{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -120px;
+	background-color: white;
+	padding: 30px;
+	
+}
+
+
+.about h3{
+	color: #1d2d50;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.about p{
+	color: #ACACAC;
+	font-style: italic;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+/* PORTOFOLIO */
+.portofolio {
+	margin-top: 120px;
+	text-align: center;
+}
+
+.portofolio h3 {
+	color: #1d2d50;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 30px;
+	
+}
+
+.portofolio p{
+	font-size: 18px;
+	color: #ACACAC;
+	font-weight: 200;
+	margin : 30px 0;
+}
+
+.portofolio1 {
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+.portofolio1 img{
+	padding-top: 10px;
+}
+
+.portofolio2{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	background-color: white;
+}
+
+/* SKILLS */
+.skill {
+	/*background-image: url(img/good.jpg);*/
+	/*background-size: cover;*/
+	background-color: #1d2d50;
+	width: 100%;
+	height: 80%;
+	padding: 10% 0;
+	text-align: center;
+	margin-top: -50px;
+}
+
+.skill h3 {
+	color: #1d2d50;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+
+.skill h4{
+	color: #ACACAC;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.progress {
+	font-weight: bold;
+	font-family: Karla;
+	font-size: 16px;
+}
+
+.side-skill {
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	background-color: white;
+	padding-bottom: 50px;
+	margin-top: 50px;
+	padding-top: 40px;
+	border-radius: 12px;
+}
+
+/* contact */
+
+.contact {
+	padding-bottom: 50px;
+	padding-top: 100px;
+	}
+
+
+
+.contact figure img{
+	width: 90px;
+	margin:20px 10px 10px;
+}
+
+.contact figure span {
+	font-size: 32px;
+	font-weight: 300;
+	
+}
+
+.contact h1{
+	font-size: 60px;
+	margin-top: 20px;
+	font-family: rubik;
+}
+
+.contact figure p {
+	font-size: 32px;
+	font-weight: 300;
+
+}
+
+
+
+/* FORM */
+.group {
+	font-size: 14px;
+	font-weight: 200;
+	font-family: Varela Round;
+}
+
+.special {
+	color:#0B63DC;
+}
+
+.group {
+	margin-top: 30px;
+}
+
+
+/* FOOTER */
+footer {
+	background-color:#1d2d50;
+	color: #fff;
+	width: 100%;
+	height: 50%;
+	padding: 90px 0 20px;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #ACACAC;
+}
+
+.Copyright {
+	margin-top: 30px;
+	color : gray;
+}
+
+.social p {
+	font-size: 18px;
+	font-family: Varela Round;
+}
+
+
+.social p:hover::after{
+	content: "";
+	display: block;
+	border-bottom: 3px solid #fff;
+	width: 30%;
+	margin:auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+
+}
+
+/* UTILITY */
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+	font-weight: 500;
+}
+
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) { 
+		
+		.navbar-brand, .nav-link{
+			color: white !important;
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+		}
+
+		.nav-link{
+			text-transform: uppercase;
+			margin-right: 30px;
+		}
+
+		.nav-link:hover::after{
+			content: "";
+			display: block;
+			border-bottom: 3px solid #0B63DC;
+			width: 50%;
+			margin : auto;
+			padding-bottom: 5px;
+			margin-bottom: -8px;
+		}
+
+		.jumbotron{
+			margin-top: -75px;
+			height: 640px;
+		}
+
+		.portofolio{
+			text-align: left;
+		}
+
+		.portofolio2 {
+			text-align: right;
+		}
+		
+		.contact {
+			height: 640px;
+		}
+
+		.contact .img1{
+			margin-top: 50px;
+			margin-left: 50px;
+		}
+ }
